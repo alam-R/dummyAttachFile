@@ -3,7 +3,9 @@ Tiny cypress command to upload fast large files to an input
 
 
 # Installation
+```bash
 npm i dummyattachfile
+```
 
 Add it to `cypress/support/commands.js`:
 
