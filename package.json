@@ -1,0 +1,21 @@
+{
+  "name": "dummyattachfile",
+  "version": "0.0.7",
+  "description": "dummy uploading a file for cypress tests",
+  "main": "dist/bundle.js",
+  "source": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle build -i src/index.js -f cjs --target node --strict --no-compress --no-generate-types",
+    "dev": "microbundle watch"
+  },
+  "keywords": [
+    "cypress",
+    "file-upload"
+  ],
+  "author": "alam",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  }
+}
