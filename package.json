@@ -9,6 +9,10 @@
     "build": "microbundle build -i src/index.js -f cjs --target node --strict --no-compress --no-generate-types",
     "dev": "microbundle watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alam-R/dummyAttachFile.git"
+  },
   "keywords": [
     "cypress",
     "file-upload"
