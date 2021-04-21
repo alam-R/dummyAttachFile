@@ -16,6 +16,6 @@ import 'dummyattachfile';
 # Use
 
 ```javascript
-<inputtypefile>.dummyAttachFile(<bytes>, <filename>, <filetype>)
+cy.get('input').dummyAttachFile(<bytes>, <filename>, <filetype>)
 // Defaults: 1024 bytes, 'whatever', ''
 ```
