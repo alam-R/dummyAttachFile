@@ -1,4 +1,4 @@
-export default function dummyAttachFile(subject, sizeBytes = 1024, fileName = 'whatever', fileType = '') {
+export default function dummyAttachFile(subject, sizeBytes = 1024, fileName = 'whatever.txt', fileType = 'text/plain') {
 
     const arrBuffer = new ArrayBuffer(sizeBytes)
     const el = subject[0]

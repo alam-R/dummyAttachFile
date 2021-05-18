@@ -1,5 +1,6 @@
 # dummyAttachFile
-Tiny cypress command to upload fast large files to an input.
+Tiny cypress command to upload fast large files to an HTML input type="file".
+The file that will be uploaded is empty. Multiple attribute is not supported {yet}.
 
 
 # Installation
@@ -17,5 +18,8 @@ import 'dummyattachfile';
 
 ```javascript
 cy.get('input').dummyAttachFile(<bytes>, <filename>, <filetype>)
-// Defaults: 1024 bytes, 'whatever', ''
+
+// <bytes>    Number | Optional | Default value: 1024   
+// <filename> String | Optional | Default value: 'whatever.txt'
+// <filetype> String | Optional | Default value: 'text/plain'
 ```
