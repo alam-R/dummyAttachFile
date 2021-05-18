@@ -22,4 +22,5 @@ cy.get('input').dummyAttachFile(<bytes>, <filename>, <filetype>)
 // <bytes>    Number | Optional | Default value: 1024   
 // <filename> String | Optional | Default value: 'whatever.txt'
 // <filetype> String | Optional | Default value: 'text/plain'
+
 ```
